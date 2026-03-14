@@ -1,5 +1,5 @@
 # shift-add-multiplication-10-bit
-**Shift/Add multiplication 10-bit**
+## Shift/Add multiplication 10-bit**
 
 This project implements a structural 10-bit Shift/Add Multiplier designed using VHDL. The architecture is developed hierarchically, starting from basic logic gates and building up to a fully registered multiplication system suitable for ASIC synthesis.
 
@@ -15,7 +15,7 @@ The design is organized into several key layers such as **Low-Level Components**
 
 ## Verification
 
-The design was verified through a complete digital IC design flow. More specifically, with the help of **Cadence Genus** the *logic synthesis* is performed for both 7nm and 45nm technologies to analyze timing, power, and area . Additionally, the design was *placed and routed* using **Cadence Innovus**, passing Connectivity and Design Rule Checks (DRC). The *logical equivalence* between the VHDL source and the synthesized netlist was confirmed via **LEC**. Finally, it was tested with an **Xcelium** testbench using various inputs to confirm mathematical accuracy for functional simulation. 
+Apart from the implementation of a **testbench** to verify the functional simulation, the design was verified through a complete digital IC design flow. More specifically, with the help of **Cadence Genus** the *logic synthesis* is performed for both 7nm and 45nm technologies to analyze timing, power, and area . Additionally, the design was *placed and routed* using **Cadence Innovus**, passing Connectivity and Design Rule Checks (DRC). The *logical equivalence* between the VHDL source and the synthesized netlist was confirmed via **LEC**. Finally, it was tested with an **Xcelium** testbench using various inputs to confirm mathematical accuracy for functional simulation. 
 
 ## Conclusion
 
