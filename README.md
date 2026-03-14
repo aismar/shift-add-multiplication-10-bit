@@ -22,22 +22,29 @@ Apart from the implementation of a **testbench** to verify the functional simula
   <p><b>Image 1: ModelSim Testbench (Xcelium Simulation)</b></p>
 </div>
 
+
+<div align="center">
+  <img src="./img/genus_7nm" alt="genus" width="800">
+  <p><b>Image 1: Genus Synthesis (7nm)</b></p>
+</div>
 <br>
 
 <div align="center">
   <table style="border: none; border-collapse: collapse;">
     <tr style="border: none;">
-      <td style="border: none; padding: 10px;">
-        <img src="./img/genus_7nm.png" alt="7nm" width="400">
+      <td style="border: none; padding: 5px;">
+        <img src="./img/timing7nm.png" alt="Timing" width="280">
       </td>
-      <td style="border: none; padding: 10px;">
-        <img src="./img/genus_45nm.png" alt="45nm" width="400">
+      <td style="border: none; padding: 5px;">
+        <img src="./img/power7nm.png" alt="Power" width="280">
+      </td>
+      <td style="border: none; padding: 5px;">
+        <img src="./img/area7nm.png" alt="Area" width="280">
       </td>
     </tr>
   </table>
-  <p><b>Image 2: Genus Synthesis (7nm left / 45nm right)</b></p>
+  <p><b>Image 4: Genus Reports (Timing / Power / Area)</b></p>
 </div>
-
 <br>
 
 <div align="center">
