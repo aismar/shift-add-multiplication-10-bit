@@ -17,17 +17,52 @@ The design is organized into several key layers such as **Low-Level Components**
 
 Apart from the implementation of a **testbench** to verify the functional simulation, the design was verified through a complete digital IC design flow. More specifically, with the help of **Cadence Genus** the *logic synthesis* is performed for both 7nm and 45nm technologies to analyze timing, power, and area . Additionally, the design was *placed and routed* using **Cadence Innovus**, passing Connectivity and Design Rule Checks (DRC). The *logical equivalence* between the VHDL source and the synthesized netlist was confirmed via **LEC**. Finally, it was tested with an **Xcelium** testbench using various inputs to confirm mathematical accuracy for functional simulation. 
 
-![tb](./img/tb.png)
-**Image 1 : ModelSim Testbench**
+<div align="center">
+  <img src="./img/tb.png" alt="ModelSim Testbench" width="800">
+  <p><b>Image 1: ModelSim Testbench (Xcelium Simulation)</b></p>
+</div>
 
-![7nm](./img/genus_7nm.png) | ![45nm](./img/genus_45nm.png)
-**Image 2 : Genus (7nm left / 45nm right)**
+<br>
 
-**IMAGE 3 : Innovus**
-![innovus](./img/innovus.png)
+<div align="center">
+  <table style="border: none; border-collapse: collapse;">
+    <tr style="border: none;">
+      <td style="border: none; padding: 10px;">
+        <img src="./img/genus_7nm.png" alt="7nm" width="400">
+      </td>
+      <td style="border: none; padding: 10px;">
+        <img src="./img/genus_45nm.png" alt="45nm" width="400">
+      </td>
+    </tr>
+  </table>
+  <p><b>Image 2: Genus Synthesis (7nm left / 45nm right)</b></p>
+</div>
 
-**Image 4 : Innovus-Timing/Connectivity/Geometry**
-![timing](./img/innovus_timing.png) | ![connectivity](./img/innovus_connectivity.png) | ![geometry](./img/innovus_geomettry.png)
+<br>
+
+<div align="center">
+  <img src="./img/innovus.png" alt="Innovus Layout" width="600">
+  <p><b>Image 3: Innovus Standard Cell Placement & Routing</b></p>
+</div>
+
+<br>
+
+<div align="center">
+  <table style="border: none; border-collapse: collapse;">
+    <tr style="border: none;">
+      <td style="border: none; padding: 5px;">
+        <img src="./img/innovus_timing.png" alt="Timing" width="280">
+      </td>
+      <td style="border: none; padding: 5px;">
+        <img src="./img/innovus_connectivity.png" alt="Connectivity" width="280">
+      </td>
+      <td style="border: none; padding: 5px;">
+        <img src="./img/innovus_geomettry.png" alt="Geometry" width="280">
+      </td>
+    </tr>
+  </table>
+  <p><b>Image 4: Innovus Reports (Timing / Connectivity / Geometry)</b></p>
+</div>
 
 ## Conclusion
 
