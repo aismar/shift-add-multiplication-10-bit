@@ -24,7 +24,7 @@ Apart from the implementation of a **testbench** to verify the functional simula
 
 
 <div align="center">
-  <img src="./img/genus_7nm" alt="genus" width="800">
+  <img src="./img/genus_7nm.png" alt="genus" width="800">
   <p><b>Image 1: Genus Synthesis (7nm)</b></p>
 </div>
 <br>
