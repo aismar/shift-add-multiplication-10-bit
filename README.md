@@ -70,6 +70,15 @@ Apart from the implementation of a **testbench** to verify the functional simula
   </table>
   <p><b>Image 4: Innovus Reports (Timing / Connectivity / Geometry)</b></p>
 </div>
+<br>
+<div align="center">
+  <img src="./img/lec.png" alt="lec" width="800">
+  <p><b>Image 5: LEC verification</b></p>
+</div>
+<div align="center">
+  <img src="./img/xcelium.png" alt="xcelium" width="800">
+  <p><b>Image 6: Xcelium testbench</b></p>
+</div>
 
 ## Conclusion
 
